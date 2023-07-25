@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+<!--_____________ Tailwind and DaisyUI______________-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+<!--______________ Manrope google font______________-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<!--____________Tailwind custom color_______________-->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+<!--________________Style Vanilla CSS________________-->
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+
+    </header>
+
+    <main class="container mx-auto">
+        <!---_____Featured Product section_______-->
+        <section class="my-32">
+            <h2 class="text-[45px] text-center">Our Featured Products</h2>
+            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+            <br>    
+            by injected humour, or randomised words which don't look even slightly believable. </p>
+
+            <div class="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ">
+
+                <div class="card w-[267px] h-[390px] bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="images/tea-1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Milk Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+
+                <div class="card w-[267px] h-[390px] bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="images/tea-2.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Milk Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+
+                <div class="card w-[267px] h-[390px] bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="images/tea-3.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Milk Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+
+                <div class="card w-[267px] h-[390px] bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="images/tea-4.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Milk Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
